@@ -15,7 +15,7 @@
   justify-self: stretch;
   grid-column: 1 / span 1;
   grid-row: 1/ span 6;
-  background-color: green
+  
 }
 
 
@@ -23,7 +23,7 @@
   justify-self: center;
   grid-column: 2 / span 2;
   grid-row: 1 / span 1;
-  background-color: blue
+  
 }
 
 
@@ -31,35 +31,35 @@
   justify-self: center;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
-  background-color: red
+  
 }
 
 .alcohol{
   justify-self: center;
   grid-column: 3 / span 1;
   grid-row: 2 / span 1;
-  background-color: orange
+ 
 }
 
 .victims{
   justify-self: center;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
-  background-color: gold
+  
 }
 
 .offenders{
   justify-self: center;
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
-  background-color: purple
+ 
 }
 
 .trends{
   justify-self: center;
   grid-column: 2 / span 2;
   grid-row: 4 / span 1;
-  background-color: magenta
+  
 }
 
 .time{
