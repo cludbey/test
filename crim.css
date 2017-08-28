@@ -1,4 +1,3 @@
-
 .container{
 
   display: grid;
@@ -15,55 +14,55 @@
   justify-self: stretch;
   grid-column: 1 / span 1;
   grid-row: 1/ span 6;
-  
+
 }
 
 
 .top10{
-  justify-self: center;
+  justify-self: stretch;
   grid-column: 2 / span 2;
   grid-row: 1 / span 1;
-  
+
 }
 
 
 .premise{
-  justify-self: center;
+  justify-self: stretch;
   grid-column: 2 / span 1;
   grid-row: 2 / span 1;
-  
+
 }
 
 .alcohol{
-  justify-self: center;
+  justify-self: stretch;
   grid-column: 3 / span 1;
   grid-row: 2 / span 1;
- 
+
 }
 
 .victims{
-  justify-self: center;
+  justify-self: stretch;
   grid-column: 2 / span 1;
   grid-row: 3 / span 1;
-  
+
 }
 
 .offenders{
-  justify-self: center;
+  justify-self: stretch;
   grid-column: 3 / span 1;
   grid-row: 3 / span 1;
- 
+
 }
 
 .trends{
-  justify-self: center;
+  justify-self: stretch;
   grid-column: 2 / span 2;
   grid-row: 4 / span 1;
-  
+
 }
 
 .time{
-  justify-self: center;
+  justify-self: stretch;
   grid-column: 2 / span 1;
   grid-row: 5 / span 1;
 }
