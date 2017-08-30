@@ -7,9 +7,8 @@ padding: 1% 1%;
   display: grid;
   grid-template-columns: 20% 40% 40%;
   grid-template-rows: auto auto auto auto auto;
-  border: 3px solid #444;
   padding: .2vw 1vw;
-  background-color: white;
+  background-color: #8fa7bf;
   border-radius: 5px;
 }
 
@@ -18,8 +17,8 @@ padding: 1% 1%;
   grid-column: 1 / span 1;
   grid-row: 1/ span 6;
   padding: 0 10px;
-  border-right: black solid;
   background-color: #4c637b;
+  border-radius: 20px;
 }
 
 .title{
@@ -34,7 +33,7 @@ padding: 1% 1%;
 
 .selections{
   grid-column: 2 / span 2;
-  grid-row: 1 / span 1
+  grid-row: 1 / span 1;
 
   display: grid;
   grid-template-columns: 99%;
@@ -44,7 +43,11 @@ padding: 1% 1%;
 }
 
 .content{
-
+  grid-column: 2 / span 4;
+  grid-row: 1 / span 6;
+  display: grid;
+  grid-template-rows: auto auto auto auto auto;
+  background-color: white;
 }
 
 .top10{
