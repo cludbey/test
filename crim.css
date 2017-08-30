@@ -1,16 +1,15 @@
 .container{
-background-color: #8fa7bf;
-padding: 1% 1%;
-}
-
-.page{
+  background-color: #8fa7bf;
   display: grid;
   grid-template-columns: 20% 40% 40%;
   grid-template-rows: auto auto auto auto auto;
   border: 3px solid #444;
   padding: .2vw 1vw;
-  background-color: white;
   border-radius: 5px;
+}
+
+.page{
+  
 }
 
 .sidebar{
