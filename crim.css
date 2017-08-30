@@ -1,10 +1,10 @@
 .container{
-background-color: #8fa7bf;
-padding: 1% 1%;
-display: grid;
-grid-template-columns: 1fr 1fr;
-grid-template-rows: auto auto auto auto auto auto auto;
-grid-gap: 10px
+  background-color: #8fa7bf;
+  padding: 1% 1%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto auto auto auto auto auto;
+  grid-gap: 10px
 }
 
 
@@ -15,91 +15,74 @@ grid-gap: 10px
   padding: 20px;
   background-color: #4c637b;
   border-radius: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 
 .premiseselect{
-
+  width: 98%;
 }
 
 .lgaselect{
-
+wi  dth: 98%;
 }
 
 .offenceselect{
-
+wid th: 98%;
 }
 
 .title{
-  grid-column: 2;
-  grid-row: 1;
-
-  display: grid;
-  grid-template-columns: 49% 49%;
   background-color: white;
   border-radius: 5px;
 }
 
 .selections{
-  grid-column: 2;
-  grid-row: 1;
-
-  /*display: grid;
-  grid-template-columns: 99%;
-  grid-template-rows: 20px 20px 20px;
-  grid-gap: 20px;*/
+  grid-row: 2;
   background-color: white;
   border-radius: 5px;
   margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .content{
-  grid-column: 1 / span 2;
-  grid-row: 2 / span 8;
-  /*display: grid;
-  grid-template-rows: auto auto auto auto auto;
   background-color: white;
-  border-radius:  20px;*/
+  margin-top: 1%;
+  border-radius: 20px;
+  display: grid;
+  grid-template-columns: 49% 49%;
 }
 
-.top10{
-  justify-self: stretch;
-  grid-column: 1 / span 2;
-  grid-row: 2 / span 1;
+.row1{
+  grid-column:1 / span 2;
+  grid-row: 1;
 }
 
 
-.premise{
-  justify-self: stretch;
-  grid-column: 1 / span 1;
-  grid-row: 3 / span 1;
+.row2{
+  overflow:auto;
+  grid-row: 2;
 }
 
-.alcohol{
-  justify-self: stretch;
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
-}
+/*.alcohol{
+  overflow:auto;
+  grid-row: 2;
+}*/
 
 .victims{
-  justify-self: stretch;
-  grid-column: 1 / span 1;
-  grid-row: 4 / span 1;
+  overflow:auto;
+  grid-row: 3;
 }
 
 .offenders{
-  justify-self: stretch;
-  grid-column: 2 / span 1;
-  grid-row: 4 / span 1;
+  overflow:auto;
+  grid-row: 3;
 }
 
 .trends{
-  justify-self: stretch;
-  grid-column: 1 / span 2;
-  grid-row: 5 / span 1;
+  grid-row: 4;
 }
 
 .time{
-  justify-self: stretch;
-  grid-column: 1 / span 1;
-  grid-row: 6 / span 1;
+  grid-row: 5
 }
