@@ -49,35 +49,31 @@ wid th: 98%;
   background-color: white;
   margin-top: 1%;
   border-radius: 20px;
-  display: grid;
-  grid-template-columns: 49% 49%;
+  grid-column: 1 / span 2;
 }
 
 .row1{
   grid-column:1 / span 2;
   grid-row: 1;
+  float:left
 }
 
 
 .row2{
-  overflow:auto;
+  grid-column:1 / span 2;
   grid-row: 2;
+  float:left
 }
 
-/*.alcohol{
-  overflow:auto;
-  grid-row: 2;
-}*/
 
-.victims{
-  overflow:auto;
+
+.row3{
+  grid-column:1 / span 2;
   grid-row: 3;
+  float:left
 }
 
-.offenders{
-  overflow:auto;
-  grid-row: 3;
-}
+
 
 .trends{
   grid-row: 4;
