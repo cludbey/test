@@ -1,84 +1,96 @@
 .container{
-  background-color: #8fa7bf;
-  padding: 1% 1%;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto auto auto auto auto auto auto;
-  grid-gap: 10px
+background-color: #8fa7bf;
+padding: 1% 1%;
 }
 
+.page{
+  display: grid;
+  grid-template-columns: 20% 40% 40%;
+  grid-template-rows: auto auto auto auto auto;
+  border: 3px solid #444;
+  padding: .2vw 1vw;
+  background-color: white;
+  border-radius: 5px;
+}
 
 .sidebar{
-  width: 98%;
-  grid-column: span 2;
-  grid-row: 1;
-  padding: 20px;
+  justify-self: stretch;
+  grid-column: 1 / span 1;
+  grid-row: 1/ span 6;
+  padding: 0 10px;
+  border-right: black solid;
   background-color: #4c637b;
-  border-radius: 20px;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.premiseselect{
-  width: 98%;
-}
-
-.lgaselect{
-wi  dth: 98%;
-}
-
-.offenceselect{
-wid th: 98%;
 }
 
 .title{
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1
+
+  display: grid;
+  grid-template-columns: 49% 49%;
   background-color: white;
   border-radius: 5px;
 }
 
 .selections{
-  grid-row: 2;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1
+
+  display: grid;
+  grid-template-columns: 99%;
+  grid-template-rows: 200px 200px 200px;
   background-color: white;
   border-radius: 5px;
-  margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .content{
-  background-color: white;
-  margin-top: 1%;
-  border-radius: 20px;
-  grid-column: 1 / span 2;
+
 }
 
-.row1{
-  grid-column:1 / span 2;
-  grid-row: 1;
-  float:left
-}
-
-
-.row2{
-  grid-column:1 / span 2;
-  grid-row: 2;
-  float:left
+.top10{
+  justify-self: stretch;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1;
+  padding-left: 2%;
 }
 
 
-
-.row3{
-  grid-column:1 / span 2;
-  grid-row: 3;
-  float:left
+.premise{
+  justify-self: stretch;
+  grid-column: 2 / span 1;
+  grid-row: 2 / span 1;
+  padding-left: 2%;
 }
 
+.alcohol{
+  justify-self: stretch;
+  grid-column: 3 / span 1;
+  grid-row: 2 / span 1;
+}
 
+.victims{
+  justify-self: stretch;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
+  padding-left: 2%;
+}
+
+.offenders{
+  justify-self: stretch;
+  grid-column: 3 / span 1;
+  grid-row: 3 / span 1;
+}
 
 .trends{
-  grid-row: 4;
+  justify-self: stretch;
+  grid-column: 2 / span 2;
+  grid-row: 4 / span 1;
+  padding-left: 2%;
 }
 
 .time{
-  grid-row: 5
+  justify-self: stretch;
+  grid-column: 2 / span 1;
+  grid-row: 5 / span 1;
+  padding-left: 2%;
 }
