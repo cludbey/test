@@ -16,9 +16,13 @@ padding: 1% 1%;
   justify-self: stretch;
   grid-column: 1 / span 1;
   grid-row: 1/ span 6;
-  padding: 0 10px;
+  padding: 20px 10px;
   background-color: #4c637b;
   border-radius: 20px;
+
+  display: grid;
+  grid-template-columns: 99%;
+  grid-template-rows: auto auto;
 }
 
 .title{
@@ -37,7 +41,7 @@ padding: 1% 1%;
 
   display: grid;
   grid-template-columns: 99%;
-  grid-template-rows: 200px 200px 200px;
+  grid-template-rows: 20px 20px 20px;
   background-color: white;
   border-radius: 5px;
 }
