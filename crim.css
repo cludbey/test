@@ -1,12 +1,12 @@
 .container{
 background-color: #8fa7bf;
-padding: 1% .5%;
+padding: 1% 1%;
 }
 
 .page{
   display: grid;
-  grid-template-columns: 18% 40% 40%;
-  grid-template-rows: auto auto auto auto auto;
+  grid-template-columns: 40% 40%%;
+  grid-template-rows: auto auto auto auto auto auto auto;
   background-color: #8fa7bf;
   border-radius: 5px;
   grid-gap: 10px
@@ -14,16 +14,16 @@ padding: 1% .5%;
 
 .sidebar{
   justify-self: stretch;
-  grid-column: 1 / span 1;
-  grid-row: 1/ span 6;
+  grid-column: 1 / span 2;
+  grid-row: 1;
   padding: 20px;
   background-color: #4c637b;
   border-radius: 20px;
 }
 
 .title{
-  grid-column: 1 / span 1;
-  grid-row: 1 / span 1;
+  grid-column: 2;
+  grid-row: 1;
 
   display: grid;
   grid-template-columns: 49% 49%;
@@ -32,69 +32,71 @@ padding: 1% .5%;
 }
 
 .selections{
-  grid-column: 2 / span 2;
-  grid-row: 1 / span 1;
+  grid-column: 2;
+  grid-row: 1;
 
-  display: grid;
+  /*display: grid;
   grid-template-columns: 99%;
   grid-template-rows: 20px 20px 20px;
+  grid-gap: 20px;*/
   background-color: white;
   border-radius: 5px;
+  margin-top: 20px;
 }
 
 .content{
-  grid-column: 2 / span 4;
-  grid-row: 1 / span 6;
-  display: grid;
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 8;
+  /*display: grid;
   grid-template-rows: auto auto auto auto auto;
   background-color: white;
-  border-radius:  20px;
+  border-radius:  20px;*/
 }
 
 .top10{
   justify-self: stretch;
-  grid-column: 2 / span 2;
-  grid-row: 1 / span 1;
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
   padding-left: 2%;
 }
 
 
 .premise{
   justify-self: stretch;
-  grid-column: 2 / span 1;
-  grid-row: 2 / span 1;
+  grid-column: 1 / span 1;
+  grid-row: 3 / span 1;
   padding-left: 2%;
 }
 
 .alcohol{
   justify-self: stretch;
-  grid-column: 3 / span 1;
-  grid-row: 2 / span 1;
+  grid-column: 2 / span 1;
+  grid-row: 3 / span 1;
 }
 
 .victims{
   justify-self: stretch;
-  grid-column: 2 / span 1;
-  grid-row: 3 / span 1;
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
   padding-left: 2%;
 }
 
 .offenders{
   justify-self: stretch;
-  grid-column: 3 / span 1;
-  grid-row: 3 / span 1;
+  grid-column: 2 / span 1;
+  grid-row: 4 / span 1;
 }
 
 .trends{
   justify-self: stretch;
-  grid-column: 2 / span 2;
-  grid-row: 4 / span 1;
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 1;
   padding-left: 2%;
 }
 
 .time{
   justify-self: stretch;
-  grid-column: 2 / span 1;
-  grid-row: 5 / span 1;
+  grid-column: 1 / span 1;
+  grid-row: 6 / span 1;
   padding-left: 2%;
 }
