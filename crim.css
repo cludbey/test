@@ -9,12 +9,24 @@ grid-gap: 10px
 
 
 .sidebar{
-  justify-self: stretch;
-  grid-column: 1 / span 2;
+  width: 98%;
+  grid-column: span 2;
   grid-row: 1;
   padding: 20px;
   background-color: #4c637b;
   border-radius: 20px;
+}
+
+.premiseselect{
+  
+}
+
+.lgaselect{
+
+}
+
+.offenceselect{
+
 }
 
 .title{
