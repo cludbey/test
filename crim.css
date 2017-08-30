@@ -1,6 +1,6 @@
 .container{
-background-color: black;
-padding: .2vw 1vw;
+background-color: #8fa7bf;
+padding: 1% 1%;
 }
 
 .page{
@@ -9,6 +9,8 @@ padding: .2vw 1vw;
   grid-template-rows: auto auto auto auto auto;
   border: 3px solid #444;
   padding: .2vw 1vw;
+  background-color: white;
+  border-radius: 5px;
 }
 
 .sidebar{
@@ -17,8 +19,33 @@ padding: .2vw 1vw;
   grid-row: 1/ span 6;
   padding: 0 10px;
   border-right: black solid;
+  background-color: #4c637b;
 }
 
+.title{
+  grid-column: 1 / span 1;
+  grid-row: 1 / span 1
+
+  display: grid;
+  grid-template-columns: 49% 49%;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.selections{
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 1
+
+  display: grid;
+  grid-template-columns: 99%;
+  grid-template-rows: 200px 200px 200px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.content{
+
+}
 
 .top10{
   justify-self: stretch;
