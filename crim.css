@@ -6,9 +6,6 @@
   border-radius: 20px;
 }
 
-#lga-selector{
-background-color:#4c637b;
-}
 
 .sidebar{
   justify-self: stretch;
@@ -17,13 +14,13 @@ background-color:#4c637b;
   padding: 0 10px;
   background-color: #4c637b;
   line-height: 30px;
-  padding-left: 10px;
+  /*padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
   border-radius: 25px;
   margin-top: 20px;
   margin-bottom: 20px;
-  margin-left: 10px;
+  margin-left: 10px;*/
 }
 
 .title{
@@ -52,10 +49,10 @@ background-color:#4c637b;
   background-color: white;
   grid-column: 2 / span 2;
   border-radius: 20px;
-  margin-left: 10px;
+  /*margin-left: 10px;
   margin-top: 20px;
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 20px;*/
 }
 
 .top10{
