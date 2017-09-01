@@ -44,11 +44,11 @@
 }
 
 .content{
-  display: grid;
+/*   display: grid;
   background-color: white;
   grid-column: 2 / span 3;
   border-radius: 20px;
-  margin-left: 10px;
+  margin-left: 10px; */
 }
 
 .top10{
