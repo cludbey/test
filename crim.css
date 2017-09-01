@@ -14,7 +14,7 @@
   grid-column: 1 / span 1;
   grid-row: 1/ span 6;
   padding: 0 10px;
-  border-right: black solid;
+  border-radius: 20px;
   background-color: #4c637b;
   line-height: 30px;
   padding-left: 10px;
@@ -44,7 +44,11 @@
 }
 
 .content{
-display: grid;
+  display: grid;
+  background-color: white;
+  grid-column: 2 / span 3;
+  border-radius: 20px;
+  margin-left: 10px;
 }
 
 .top10{
