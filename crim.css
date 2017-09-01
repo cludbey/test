@@ -8,9 +8,6 @@
   border-radius: 5px;
 }
 
-.page{
-
-}
 
 .sidebar{
   justify-self: stretch;
@@ -47,7 +44,7 @@
 }
 
 .content{
-
+display: grid;
 }
 
 .top10{
